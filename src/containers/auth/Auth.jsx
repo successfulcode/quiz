@@ -15,7 +15,7 @@ class Auth extends React.Component {
         type: 'email',
         label: 'Email',
         errorMessage: 'Įveskite teisingą elektroninį paštą',
-        valid: false,
+        valid: true,
         touched: false,
         validation: {
           required: true,
@@ -27,7 +27,7 @@ class Auth extends React.Component {
         type: 'password',
         label: 'Password',
         errorMessage: 'Įveskite teisingą slaptažodį',
-        valid: false,
+        valid: true,
         touched: false,
         validation: {
           required: true,
