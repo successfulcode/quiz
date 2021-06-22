@@ -8,14 +8,14 @@ import { auth } from '../../store/actions/auth';
 
 class Auth extends React.Component {
   state = {
-    isFormValid: false,
+    isFormValid: true,
     formControls: {
       email: {
         value: 'test@test.lt',
         type: 'email',
         label: 'Email',
         errorMessage: 'Įveskite teisingą elektroninį paštą',
-        valid: true,
+        valid: false,
         touched: false,
         validation: {
           required: true,
@@ -27,7 +27,7 @@ class Auth extends React.Component {
         type: 'password',
         label: 'Password',
         errorMessage: 'Įveskite teisingą slaptažodį',
-        valid: true,
+        valid: false,
         touched: false,
         validation: {
           required: true,
