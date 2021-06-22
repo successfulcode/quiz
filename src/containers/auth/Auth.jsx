@@ -23,7 +23,7 @@ class Auth extends React.Component {
         },
       },
       password: {
-        value: 'TestTest123',
+        value: 'Test123456',
         type: 'password',
         label: 'Password',
         errorMessage: 'Įveskite teisingą slaptažodį',
